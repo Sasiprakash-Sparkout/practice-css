@@ -1,0 +1,52 @@
+.I{
+    border-style: solid;
+    border-color:  blue;
+    border-width: 5px ;
+    border-radius: 20px;
+}
+.II{
+    border-style: dotted;
+}
+.I2{
+    border-style: dashed;
+}
+.I3{
+    border-style: double;
+    border-color: violet;
+    border-width: 7px;
+    border-radius: 10px ;
+}
+.I4{
+    border-style: groove;
+    border-color: yellow;
+    border-width: 20px;
+}
+.I5{
+    border-style: ridge;
+    border-color: slateblue;
+    border-width: 13px;
+}
+.I6{
+    border-style: inset; 
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: salmon;
+}
+.I7{
+    border-style: outset;
+    border-width: 20px;
+    border-radius: 11px;
+    border-color: firebrick;
+}
+.I8{
+     border-style: solid outset none groove;
+    border-width: 20px;
+    border-radius: 11px;
+    border-color: firebrick;
+}
+.I9{
+    border:10px,solid,goldenrod;
+    outline-style: groove;
+    outline-color: blue;
+
+}

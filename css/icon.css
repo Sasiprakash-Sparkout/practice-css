@@ -1,0 +1,23 @@
+
+.fa-house{
+    
+    color:white;
+    background-color: black;
+    font-size: 50px;
+    padding:10px;
+    margin:20px;
+    border:20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.fa-linkedin-in{
+    color:white;
+    background-color: blueviolet;
+    font-size: 50px;
+    padding:10px;
+    margin:20px;
+    border:20px;
+    border-radius: 20px;
+    cursor: pointer;
+}

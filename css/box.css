@@ -1,0 +1,23 @@
+   .head1 {
+            border: 10px solid gray;
+            height: 5-0px;
+            width: 200px;
+            padding: 30px;
+            margin: 50px;
+        }
+
+        .head2 {
+            border: 10px solid blue;
+            height: 50px;
+            width: 200px;
+            padding: 30px;
+            margin: 50px;
+
+        }
+    .para1{
+        border: 10px solid blue;
+            height: 80px;
+            width: 700px;
+            padding: 30px;
+            margin: 50px;
+    }

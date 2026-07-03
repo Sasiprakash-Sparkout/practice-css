@@ -1,0 +1,8 @@
+.a{
+    list-style-type: circle;
+    list-style-position:inside;
+}
+.b{
+    list-style-type: decimal-leading-zero;
+    list-style-image: url('/img/list.png');
+}

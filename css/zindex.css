@@ -1,0 +1,27 @@
+.box{
+    height: 100px;
+    width: 75px;
+  
+    position: relative;
+}
+.box1{
+    background-color: yellow;
+    left: 50px;
+    
+}
+.box2{
+    background-color: blue;
+    left: 100px;
+    bottom: 50px;
+    z-index: 1;
+}
+.box3{
+    background-color: black;
+    left:150px;
+    bottom: 100px;
+}
+.box4{
+    background-color: sienna;
+    left: 200px;
+    bottom:150px;
+}

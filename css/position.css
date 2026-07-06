@@ -1,0 +1,39 @@
+    .box {
+        height: 100px;
+        width: 100px;
+        margin: 20px;
+        color: gray;
+    }
+    .box1{
+        background-color: rgb(197, 22, 22);
+        position: static;
+        top: 40px;
+    }
+    .box2{
+        background-color: yellow;
+        position: relative;
+        top: 50px;
+        right: 30px;
+        left: 50px;
+    }
+    .box3{
+        background-color: blue;
+        position: absolute;
+        right: 50px;
+    }
+    .parent{
+        position: relative;
+        border: 3px solid red;
+        height: 500px;
+        width: 800px;
+    }
+    .box4{
+        position: sticky;
+        top: 30px;
+        right: 60px;
+        background-color: gray;
+        z-index: 1;
+    }
+    p{
+        font-size: 100px;
+    }

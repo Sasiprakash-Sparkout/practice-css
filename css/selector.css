@@ -1,0 +1,24 @@
+p[title]{
+    color: blue;
+}
+p[lang="en"]{
+    color: red;
+    background-color: azure;
+}
+abbr[title~="sheet"]{
+    background-color: yellow;
+    color: black;
+}
+a[href^="www"]{
+    color: gray;
+    background-color: black;
+}
+a[href$=".html"]{
+    background-color: gray;
+    font-size: 30px;
+    text-decoration: none;
+}
+div[class*="box"]{
+    color:rgb(163, 25, 25);
+    background-color: blueviolet;
+}

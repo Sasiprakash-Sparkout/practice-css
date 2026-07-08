@@ -1,0 +1,26 @@
+.para1::first-line{
+    color: blue;
+    font-size:px;
+}
+.para2::first-letter{
+    font-size: 40px;
+    color:grey;
+
+}
+
+.para3::before{
+    content:"😊";
+}
+.para3::after{
+    content: 'hello';
+    font-size: 3rem;
+
+}
+ul li::marker{
+    color: blue;
+
+}
+.para3::selection{
+    color:white;
+    background-color: red;
+}

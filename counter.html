@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            counter-reset: head;
+        }
+        h1::before{
+            counter-increment: head;
+            content:"title " counter(head) ". ";
+        }
+        h2::before{
+            counter-increment: subhead;
+            content: counter(head)"." counter(head)" ";
+        }
+    </style>
+</head>
+<body>
+    <h1>html</h1>
+    <h2>headings</h2>
+    <h2>text format</h2>
+    <h1>world</h1>
+     <h2>headings</h2>
+    <h2>text format</h2>
+    <h1>my name</h1>
+     <h2>headings</h2>
+    <h2>text format</h2>
+    <h1>sasi</h1>
+     <h2>headings</h2>
+    <h2>text format</h2>
+    <h1>prakash</h1>
+     <h2>headings</h2>
+    <h2>text format</h2>
+</body>
+</html>

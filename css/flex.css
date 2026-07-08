@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-1 {
+
+    align-items: center;
+    background-color: blue;
+}
+
+header {
+    display: flex;
+    direction: row;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.img {
+    cursor: pointer;
+    background-color: violet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: size 31px;
+}
+
+input {
+    width: 600px;
+    margin-top: 20px;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: aqua;
+    padding: 15px 30px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    width: 100px;
+}
+
+a:hover {
+    background-color: rgb(17, 36, 74);
+    color: brown;
+    padding: 20px;
+}
+
+.container2 {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: gray;
+    padding: 40px 50px;
+
+
+}
+
+.container2 div {
+    background-color: yellow;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    margin: 10px;
+width: 300px;
+    justify-content: space-between;
+
+}
+
+.card  {
+
+    gap: 30px;
+    border: 5px solid rgb(92, 25, 25);
+
+
+}
+.card h2{
+color: rgb(33, 40, 27);
+margin:5px;
+}
+
+.card img{
+    margin: 8px;
+}
+.rate{
+    margin:8px;
+    border: 2px solid blue;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.description{
+margin: 8px;
+    font-size:15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

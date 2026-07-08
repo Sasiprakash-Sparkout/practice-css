@@ -4,6 +4,34 @@
     box-sizing: border-box;
    
 }
-ul{
-    list-style: none;
-}
+ .droupdown{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    list-style-type: none;
+
+ } 
+ a{
+    display: block;
+    width:300px;
+    background-color: brown;
+    text-decoration: none;
+    color: bisque;
+    padding: 5px 0px;
+    font-size: 1.2rem;
+    text-align: center;
+ }
+ a:hover{
+    background-color: bisque;
+    color:brown;
+ }
+ .course{
+    list-style-type: none;
+   
+    display: none;
+ }
+ .droupdown li:nth-child(4):hover .course{
+    display: block;
+    color:bisque;
+    background-color: brown;
+ }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .example {
+            border: 2px solid black;
+           background: url(./img/2.jpg);
+           background-color: blueviolet;
+           background-size: auto;
+           background-repeat: no-repeat;
+           background-clip: content-box;
+           
+        }
+        .example1{
+              border: 2px solid black;
+           background: url(./img/2.jpg);
+           background-size: contain;
+           background-repeat: no-repeat;
+           
+        }
+        .example2{
+              border: 2px solid black;
+           background: url(./img/2.jpg);
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-clip: border-box;
+           
+        }
+        .example4{
+            background: url(./img/2.jpg),url(./img/3.jpg),url(./img/adv1back.jpg);
+            border: 3px solid blue;
+            background-position: left top,right bottom,center;
+            background-repeat: no-repeat,no-repeat,repeat;
+            background-size: contain,150,auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="example">
+        <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quae minima tenetur iure rem culpa
+            amet, expedita quod maxime eligendi tempore qui, molestias ab facere temporibus esse dolorem eos facilis?
+        </h1>
+    </div>
+    <div class="example1">
+        <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quae minima tenetur iure rem culpa
+            amet, expedita quod maxime eligendi tempore qui, molestias ab facere temporibus esse dolorem eos facilis?
+        </h1>
+    </div>
+    <div class="example2">
+        <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quae minima tenetur iure rem culpa
+            amet, expedita quod maxime eligendi tempore qui, molestias ab facere temporibus esse dolorem eos facilis?
+        </h1>
+    </div>
+    <div class="example4">
+        <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quae minima tenetur iure rem culpa
+            amet, expedita quod maxime eligendi tempore qui, molestias ab facere temporibus esse dolorem eos facilis?
+        </h1>
+    </div>
+
+</body>
+
+</html>

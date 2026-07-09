@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+
+            color: rgb(211, 216, 222);
+            text-shadow: 10px 5px 10px rgb(18, 5, 5), 0 0 4px rgb(40, 40, 35);
+        }
+
+        .box {
+            background-image: radial-gradient(blue, red);
+            padding: 10px;
+            margin: 45px;
+            box-shadow: 15px 15px 10px blueviolet, 20px 10px 4px yellow;
+        }
+
+        .clip {
+            color: rgb(168, 153, 153);
+            border: 2px solid;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: clip;
+
+        }
+
+        .clip:hover {
+            overflow: visible;
+        }
+
+        .ellips {
+            color: rgb(168, 153, 153);
+            border: 2px solid;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .ellips:hover {
+            overflow: visible;
+        }
+
+        .word-warp {
+            border: 2px solid gray;
+            height: 150px;
+            width: 300px;
+            word-wrap: break-word;
+        }
+
+        .break {
+            border: 2px solid gray;
+            height: 150px;
+            width: 300px;
+            overflow: hidden;
+            word-break: break-all;
+        }
+
+        .keep {
+            margin-top: 30px;
+            border: 2px solid gray;
+            height: 150px;
+            width: 300px;
+            word-break: keep-all;
+            overflow: hidden;
+
+        }
+
+        h3 {
+            writing-mode: vertical-rl;
+        }
+
+        .mode h2 {
+            writing-mode: vertical-rl;
+        }
+        .mode span{
+            writing-mode: vertical-lr;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>HELLO WORLD</h1>
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus sed quibusdam enim labore,
+        maxime optio
+        alias inventore quod cum molestias amet veniam, facilis quos corporis aut temporibus doloribus rerum.</div>
+
+    <h1>textoverflow</h1>
+    <p class="clip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, veritatis enim voluptatibus
+        repudiandae,
+        reiciendis cupiditate necessitatibus animi numquam, modi asperiores voluptate! Exercitationem sit quaerat
+        placeat ea dolor voluptates voluptate sed!</p>
+    <p class="ellips">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis necessitatibus asperiores
+        dolore, reprehenderit quas perspiciatis maxime vero ad voluptates? Delectus libero ducimus laboriosam quis eaque
+        nam maiores consequuntur veritatis dolore.</p>
+    <div class="word-warp">
+        <p>Lorem ipsum dolor sit amet consectetur hhhhhhhhhhhhhhhhhhhrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr adipisicing
+            elit. Quos eos minus numquam magnam totam nemo iusto ipsam
+            mollitia at voluptas voluptate rerum, laboriosam ab voluptates vel blanditiis dolorum amet dolores.
+        </p>
+    </div>
+    <div class="break">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga suscipit, voluptate soluta error
+        exercitationem, mollitia aut, facere veritatis reprehenderit temporibus adipisci ullam consequuntur assumenda ut
+        iusto architecto perspiciatis hellloiamsasiprakash recusandae iure sequi officia at atque. Quam, eveniet cum ut
+        beatae maiores
+        architecto suscipit perspiciatis ipsa exercitationem debitis accusamus iste pariatur porro.
+    </div>
+    <div class="keep">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas saepe quae necessitatibus modi
+        recusandae rem facere totam, iusto cupiditate voluptate, assumenda odio voluptates cumque velit eveniet optio?
+        Possimus, dolor dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam harum quia reiciendis
+        repudiandae illo odit. Placeat, veritatis. Doloremque hic, magni commodi illum aut, praesentium sapiente
+        necessitatibus recusandae nobis fuga quae.</div>
+    <h3>hello wold</h3>
+    <div class="mode">
+        <h2>HEllo WORD Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span>hello word</span> nulla dolor veritatis
+            repellendus, fuga perspiciatis vero deleniti facere, suscipit voluptates tenetur eos esse reiciendis. Ipsam
+            delectus at fugit cumque reiciendis?</h2>
+    </div>
+</body>
+
+</html>

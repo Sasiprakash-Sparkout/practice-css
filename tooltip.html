@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tool{
+            position: relative;
+            display: inline-block; 
+           }
+           .tip{
+            position: absolute;
+            visibility: hidden;
+            padding: 10px;
+            border: 4px solid gray;
+            color:wheat;
+            background-color: yellow;
+        
+           }
+           .tool:hover .tip{
+            visibility: visible;
+           }
+           .tooltip{
+            position:relative;
+        
+           }
+           .your{
+            position: absolute;
+            visibility: hidden;
+            background-color:black;
+            border: 2px solid wheat;
+            border-radius: 2px;
+            color: white;
+            opacity: 0;
+            transition:opacity 2s;
+           }
+           .tooltip:hover .your{
+            visibility:visible ;
+            opacity: 1;
+           }
+    </style>
+</head>
+<body>
+    <div class="tool">
+    hello word <span class="tip">this is a tooltip</span>
+    </div>
+<div class="tooltip">
+    helloo my son<span class="your">how are you</span>
+</div>
+</body>
+</html>

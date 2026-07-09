@@ -76,7 +76,7 @@ a:hover {
     flex-wrap: wrap;
     flex-grow: 3;
     margin: 10px;
-width: 300px;
+    width: 300px;
     justify-content: space-between;
 
 }

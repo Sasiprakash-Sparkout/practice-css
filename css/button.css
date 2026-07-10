@@ -1,0 +1,115 @@
+.link {
+    background-color: black;
+    border: 5px solid rgb(65, 54, 54);
+    cursor: pointer;
+    box-shadow: 4px 3px 5px red;
+    border-radius: 90%;
+    text-align: center;
+
+
+}
+
+button .link a {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+
+}
+
+.link a:hover {
+    padding-left: 3px;
+    border: 5px solid blue;
+    background-color: red;
+    color: black;
+    font-family: monospace;
+    border-radius: 150%;
+
+}
+
+.button button {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    margin: 3x 4px;
+    text-align: center;
+    padding: 10px 14px;
+    font-size: 16px;
+    color: black;
+    justify-content: center;
+}
+
+.button1 button:hover {
+    background-color: rgb(73, 19, 128);
+    transition-duration: 2s;
+    color: white;
+    border: 2px solid gray;
+
+}
+
+.button2 button:hover {
+    background-color: rgb(9, 40, 6);
+    transition-duration: 2s;
+    color: white;
+    border: 2px solid rgb(196, 22, 103);
+
+
+}
+
+.button3 button:hover {
+    background-color: rgb(73, 19, 128);
+
+    color: rgb(30, 8, 8);
+    border: 2px solid rgb(147, 207, 19);
+    box-shadow: 4px 3px 5px red;
+    cursor: not-allowed;
+    background-color: beige;
+    width: 50%;
+    opacity: 0.5;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+.btn img{
+    width: 100%;
+    height: auto;
+}
+.image button{
+    position: absolute;
+    top:50%;
+    left: 50%;
+}
+
+.btn button:hover{
+    color:lawngreen;
+    background-color: blueviolet;
+    padding: 20px;
+    font-size: 30px;
+}
+.btn-grp{
+    display: flex;
+    
+    flex-direction: column;
+   
+   
+}
+.group{
+    display: flex;
+    color:rgb(246, 238, 238);
+    border: 2px solid blue;
+    border-left: none;
+    font-size: 20px;
+     background-color:green;
+     flex-direction: column;
+
+     margin-left: -4px;
+}
+.group:hover{
+    background-color: yellow;
+}

@@ -1,0 +1,42 @@
+.container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 10vh 10vh 40vh 30vh 10vh ;
+    grid-template-areas: 
+    "h h h"
+    "n n n"
+    "s s asi"
+    "a a asi"
+
+    "f f f";
+}
+.header{
+    grid-area: h;
+}
+.nav{
+    grid-area: n;
+}
+.section{
+    grid-area: s;
+}
+.article{
+    grid-area: a;
+}
+.aside{
+grid-area: asi;
+}
+.footer{
+    grid-area: f;
+}
+
+
+
+.container div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(202, 29, 29);
+    background-color: rgb(190, 190, 197);
+    font-size: 2rem;
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: blue;
+            margin: 30px;
+            
+        }
+        .contain{
+            background-color: yellow;
+            height:400px ;
+            width: 200px;
+            object-fit:contain;
+        }
+        .cover{
+            background-color: gray;
+               height:400px ;
+            width: 200px;
+            object-fit:cover;
+        }
+        .scale-down{
+            background-color: rgb(198, 27, 27);
+               height:400px ;
+            width: 200px;
+            object-fit:scale-down;
+        }
+        .none{
+          background-color: rgb(74, 16, 16);
+               height:400px ;
+            width: 200px;
+            object-fit:none;
+        }
+        .fill{
+            background-color: rgb(74, 16, 16);
+               height:400px ;
+            width: 200px;
+            object-fit:fill;
+        }
+    </style>
+</head>
+<body>
+    <img src="./img/tower.jpg" alt="pairs img" class="contain">
+    <img src="./img/tower.jpg" alt="pair" class="cover">
+    <img src="./img/tower.jpg" alt="pair" class="scale-down">
+     <img src="./img/tower.jpg" alt="pair" class="none">
+    <img src="./img/tower.jpg" alt="pair" class="fill">
+</body>
+</html>
